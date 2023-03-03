@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.App {
+    text-align: center;
+    margin-bottom: 100px;
+    /* height: 84.5vh; */
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    height: 100%;
+    background-color: #023047;
+  }
+  
+  .title{
+    text-align: center;
+    font-size: 62px;
+    padding-top: 40px;
+    font-weight: 700;
+    color: #8ECAE6;
+  }
+  .deaths{
+    text-align: center;
+    font-size: 60px;
+    color:#FFB703;
+    padding-top:40px;
+  }
+  
+  .body-text{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 18px;
+    color: #8ECAE6;
+  }
+  
+  .error {
+    color: red;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    margin-top:60px;
+    border: 10px solid #023047;
+    border-radius: 10px;
+  }
+
+  .free {
+    background-color: #41ff9aaf;
+    color: #003d1d;
+  }
+
+  .not-available {
+    background-color:#ff2d53b0;
+    color:#52000f;
+  }
+
+  .taken{
+    background-color: #ffb803a6;
+    color:#3f2d00;
+  }
+
+  .freespace {
+    background-color:#8ecae698;
+    color:#fff;
+  }
+
+  .office-button {
+    margin:5px;
+    background: #8ECAE6;
+    color:#fff;
+    border:none;
+    border-radius:10px;
+  }
+
+  .office-button:hover {
+background: #63adcf;
+  }
+
+  
+.main-button {
+    font-weight: 500;
+    width: 50%;
+    color: #fff;
+    background-color: #FB8500;
+    border-radius: 1.5rem;
+    padding:2%;
+    border:none;
+    font-family: 'Montserrat', sans-serif;
+    font-size:12px;
+  
+}
+
+.main-button:hover {
+    background: #FB6600;
+}
+
+h5 {
+  color:#219EBC;
+
+}
+
+h1 {
+  font-weight:800;
+  font-size:30px;
+  color:#FFB703;
+
+}
+
+.data-title {
+  font-size:22px;
+  font-weight:500;
+  color:#fff;
+}
+
+.covid-data {
+  margin-top:50px;
+}
+
+.planning-title {
+  font-weight:800;
+  font-size:30px;
+  color:#8ECAE6;
+  margin-top:20px;
+}
+
+.card{
+  border-radius:20px !important;
+  background:#fff;
+}
+
+.card-title.h5 {
+color:#219EBC;
+font-weight: 700;
+margin-top:20px;
+}
+
+.card-subtitle.h6 {
+color:#FB8500;
+font-weight: 700;
+font-size:12px;
+margin-bottom:20px;
+}

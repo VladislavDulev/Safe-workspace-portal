@@ -1,0 +1,58 @@
+.create-office-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.create-office-logo{
+    position: relative;
+    margin-left: -41.5%;
+}
+.create-office-logo img{
+    position: absolute;
+    width: 20%;
+    margin-top: 19%;
+    background: #282726;
+    border-radius: 4.5rem;
+    padding: 5%;
+}
+.create-office-form-1{
+    margin:auto;
+    padding: 9%;
+    background-color: #219EBC;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    border-radius:20px;
+}
+.create-office-form-1 h3{
+    text-align: center;
+    margin-bottom:12%;
+    color:#fff;
+}
+.btnSubmit{
+    font-weight: 500 !important;
+    width: 50% !important;
+    color: #fff;
+    background-color: #FB8500 !important;
+    border-radius: 1.5rem !important;
+    padding:2%;
+    border:none;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size:16px !important;
+}
+/* .btnForgetPwd{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+.btnForgetPwd:hover{
+    text-decoration:none;
+    color:#fff;
+} */
+.is-invalid {
+    border: 2px solid red;
+    border-radius: 8.8px;
+}
+
+.create-office {
+font-size:22px;
+font-weight:500;
+padding-top:20px; 
+}
